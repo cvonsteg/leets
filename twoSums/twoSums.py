@@ -1,4 +1,12 @@
-Class Solution:
+"""
+Problem Name: Two Sum
+Difficulty: Easy
+Runtime: 40ms (beats 98.14% of submissions)
+Memory: 15MB (beats 70.79% of submissions)
+"""
+
+
+class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         val_dict = {}
         result = []
